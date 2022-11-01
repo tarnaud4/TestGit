@@ -1,8 +1,7 @@
 //Morpion
 
-/* Du mal à détecter une victoire, faudrait essayer juste les possibilités concernant la case jouée
-Possibilité de rejouer sur une case deja occupée à corriger (message d'erreur) ,ca retient dans scanf...
-IA (photo meilleurs moves)
+/* 
+Possibilité de rejouer sur une case deja occupée ou en dehors de la grile à corriger 
 */
 
 #include <stdio.h> //printf; scanf
