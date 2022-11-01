@@ -8,7 +8,7 @@ IA (photo meilleurs moves)
 #include <stdio.h> //printf; scanf
 #include "morpion.h"
 
-int main() {
+void morpion() {
     char grille[9]; //grille
     int joueur = 1; //n° du joueur
     int case_jouee;
@@ -35,7 +35,6 @@ int main() {
     if (fin == 2) {
         printf("\n Victoire du joueur 2 !\n");
     }
-    return 0;
 }
 
 void init_grille(char grille[9]) {
