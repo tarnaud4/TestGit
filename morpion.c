@@ -2,6 +2,7 @@
 
 /* 
 Possibilité de rejouer sur une case deja occupée ou en dehors de la grile à corriger 
+
 */
 
 #include <stdio.h> //printf; scanf
