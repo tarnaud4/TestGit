@@ -1,8 +1,1 @@
-prenom : Thomas ; nom : Arnaud ; age : 19 ; message : Victor 
-prenom : oi ; nom : u ; age : 1 ; message : victortbosah 
-prenom : a ; nom : z ; age : 12 ; message : p 
-prenom : TOTO ; nom : ARNOOO ; age : 12 ; message : YO 
-prenom : Thomas ; nom : ARNAUD ; age : 12407872 ; message : @T½ 
-prenom : oui ; nom : nonm ; age : 22 ; message : ÿ 
-prenom : a ; nom : b ; age : 12 ; message : ÿ 
-prenom : a ; nom : b ; age : 12 ; message : a b c d  
+prenom : Thomas ; nom : ARNAUD ; age : 19 ; message : J espere que t'as prepare le tp sale batard 

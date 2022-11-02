@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-void main(int argc, char* argv[] ){
+void message(){
     
     FILE*  fichier = NULL;
     fichier = fopen("data.txt", "a");
@@ -9,13 +9,13 @@ void main(int argc, char* argv[] ){
     char message[200];
     int age;
 
-    printf("\n Quel est ton prenom ? \n");
+    printf("\n Quel est ton prenom ? ");
     scanf("%s",prenom);
-    printf("\n Quel est ton nom ? \n");
+    printf("\n Quel est ton nom ? ");
     scanf("%s",nom);
-    printf("\n Quel est ton age ? \n");
+    printf("\n Quel est ton age ? ");
     scanf("%d",&age);
-    printf("\n Quel est ton message ? \n");
+    printf("\n Quel est ton message ? ");
     scanf(" %[^\n]",message);
     
     printf("%s", message);

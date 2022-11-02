@@ -2,6 +2,7 @@
 #include"puissance4.c"
 #include"morpion.c"
 #include"JustePrix.c"
+#include"message.c"
 /* Inclut le .c de ton jeu au dessus*/
 
 int main(){
@@ -11,7 +12,7 @@ int main(){
     
     /* Rajoute ton jeu au print*/
         printf("\n---------------------\n");
-        printf("A quoi voulez vous jouer ? \n\n 1. Morpion \n 2. Puissance4\n 3. Juste Prix \n\n 0. STOP \n\nMon choix : ");
+        printf("A quoi voulez vous jouer ? \n\n 1. Morpion \n 2. Puissance4\n 3. Juste Prix\n\n 4.Envoyer un message \n\n 0. STOP \n\nMon choix : ");
         scanf("%d",&choix);
 
     /* Rajoute un case au switch*/
@@ -30,6 +31,11 @@ int main(){
         case 3:
             printf("\n Choix 3 : Juste Prix\n");
             justeprix();
+            break;
+        
+        case 4:
+            printf("\n Choix 4 : Envoyer un message\n");
+            message();
             break;
 
 
