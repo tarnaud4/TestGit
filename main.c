@@ -7,7 +7,8 @@
 int main(){
     int choix=1;
 
-    while (choix!=0){
+    while (choix!=0){ // Pour revenir au menu a la fin de chaque jeux.
+    
     /* Rajoute ton jeu au print*/
         printf("\n---------------------\n");
         printf("A quoi voulez vous jouer ? \n\n 1. Morpion \n 2. Puissance4\n 3. Juste Prix \n\n 0. STOP \n\nMon choix : ");
