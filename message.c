@@ -22,7 +22,7 @@ void message(){
     if (fichier != NULL){
 
 
-        fprintf(fichier, "prenom : %s ; nom : %s ; age : %d ; message : %s \n", prenom, nom, age, message);
+        fprintf(fichier, "%s %s %d %s \n", prenom, nom, age, message);
         fclose(fichier);
         printf("\n Merci pour ton message !");
     }

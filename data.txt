@@ -1,1 +1,3 @@
-prenom : Thomas ; nom : ARNAUD ; age : 19 ; message : J espere que t'as prepare le tp sale batard 
+Thomas ARNAUD 19 Premier message qui va fonctionner 
+Arnaud THOMAS 98 Ekip ekip 
+CA MARCHE 666 C'est beau, vive le sport 
