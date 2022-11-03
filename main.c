@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include"Jeux/puissance4.c"
-#include"Jeux/morpion.c"
-#include"Jeux/JustePrix.c"
+#include"puissance4.c"
+#include"morpion.c"
+#include"JustePrix.c"
 #include"message.c"
 #include"lire.c"
 /* Inclut le .c de ton jeu au dessus*/
